@@ -1,6 +1,6 @@
 {
-   "name": "project1",
-   "description": "Description for project1.",
+   "name": "camlab31_TD_template",
+   "description": "Description for camlab31_TD_template.",
    "type": "userCreated",
    "manifest": {
      "template_type": "Terraform",
