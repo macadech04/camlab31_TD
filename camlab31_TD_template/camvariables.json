@@ -1,5 +1,10 @@
 {
-  "input_datatypes": [ ],
+  "input_datatypes": [ 
+    {
+      "name": "camlabDT",
+      "label": "camlabDT"
+    }
+  ],
   "input_namespaces": [ ],
   "output_namespace": "",
   "input_groups": [
@@ -109,7 +114,7 @@
       "label": "Virtual Machine Number Of Vcpu",
       "description": "Number of virtual cpu's.",
       "type": "string",
-      "default": "",
+      "default": "${camlabDT.cpus}",
       "validation": "",
       "group_name": "instances",
       "required": true,
@@ -123,7 +128,7 @@
       "label": "Virtual Machine Memory",
       "description": "Memory allocation.",
       "type": "string",
-      "default": "",
+      "default": "${camlabDT.memory}",
       "validation": "",
       "group_name": "instances",
       "required": true,
